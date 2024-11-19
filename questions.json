@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "question": "Dove si trova la tua proprietà?",
+    "type": "location"
+  },
+  {
+    "id": 2,
+    "question": "Quanto è vicina la fermata del tram?",
+    "type": "choice",
+    "options": [
+      {
+        "value": "very-close",
+        "label": "Molto vicina"
+      },
+      {
+        "value": "5-min",
+        "label": "Più di 5 minuti"
+      },
+      {
+        "value": "not-available",
+        "label": "Non disponibile"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Che tipo di proprietà hai?",
+    "type": "choice",
+    "options": [
+      {
+        "value": "studio",
+        "label": "Monolocale"
+      },
+      {
+        "value": "1-bedroom",
+        "label": "1 Camera"
+      },
+      {
+        "value": "2-bedroom",
+        "label": "2 Camere"
+      },
+      {
+        "value": "3-bedroom",
+        "label": "3 Camere"
+      },
+      {
+        "value": "4-bedroom",
+        "label": "4+ Camere"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Quanti posti letto ci sono?",
+    "type": "numeric",
+    "options": []
+  },
+  {
+    "id": 5,
+    "question": "Quanti bagni ci sono?",
+    "type": "choice",
+    "options": [
+      {
+        "value": "1",
+        "label": "1"
+      },
+      {
+        "value": "2",
+        "label": "2"
+      },
+      {
+        "value": "3",
+        "label": "3"
+      },
+      {
+        "value": "3+",
+        "label": "3+"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "I bagni hanno finestre?",
+    "type": "choice",
+    "options": [
+      {
+        "value": "all",
+        "label": "Tutti hanno finestre"
+      },
+      {
+        "value": "some",
+        "label": "Alcuni hanno finestre"
+      },
+      {
+        "value": "none",
+        "label": "Nessuna finestra"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "In che condizioni è la proprietà?",
+    "type": "choice",
+    "options": [
+      {
+        "value": "needs-renovation",
+        "label": "Da ristrutturare"
+      },
+      {
+        "value": "livable",
+        "label": "Abitabile"
+      },
+      {
+        "value": "good",
+        "label": "Buone condizioni"
+      },
+      {
+        "value": "renovated",
+        "label": "Ristrutturato"
+      },
+      {
+        "value": "new",
+        "label": "Nuovo"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Che tipo di vista offre?",
+    "type": "choice",
+    "options": [
+      {
+        "value": "cityscape",
+        "label": "Vista città"
+      },
+      {
+        "value": "monuments",
+        "label": "Monumenti"
+      },
+      {
+        "value": "garden",
+        "label": "Giardino"
+      },
+      {
+        "value": "none",
+        "label": "Nessuna vista particolare"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Ci sono spazi esterni?",
+    "type": "choice",
+    "options": [
+      {
+        "value": "balcony",
+        "label": "Balcone"
+      },
+      {
+        "value": "small-terrace",
+        "label": "Piccolo terrazzo"
+      },
+      {
+        "value": "large-terrace",
+        "label": "Grande terrazzo"
+      },
+      {
+        "value": "none",
+        "label": "Nessuno spazio esterno"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "È disponibile un parcheggio?",
+    "type": "choice",
+    "options": [
+      {
+        "value": "yes",
+        "label": "Sì"
+      },
+      {
+        "value": "no",
+        "label": "No"
+      }
+    ]
+  }
+]
